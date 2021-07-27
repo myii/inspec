@@ -58,7 +58,7 @@ module Inspec
 
       # Optionally suppress diff output in the message field
       def suppress_diff_output
-        return if @config[:runtime_config][:diff]
+        return if @config[:runtime_config][:diff] || @config[:runtime_config][:diff].nil?
 
         @run_data[:profiles]&.each do |p|
           p[:controls]&.each do |c|
