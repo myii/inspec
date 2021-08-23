@@ -1,30 +1,39 @@
 # Change Log
 <!-- usage documentation: http://expeditor-docs.es.chef.io/configuration/changelog/ -->
-<!-- latest_release 4.41.2 -->
-## [v4.41.2](https://github.com/inspec/inspec/tree/v4.41.2) (2021-08-13)
+<!-- latest_release 4.41.7 -->
+## [v4.41.7](https://github.com/inspec/inspec/tree/v4.41.7) (2021-08-18)
 
 #### Merged Pull Requests
-- Fix the typo in documentation file for opa_api resource [#5608](https://github.com/inspec/inspec/pull/5608) ([Vasu1105](https://github.com/Vasu1105))
-- Remove empty .gitmodules file [#5616](https://github.com/inspec/inspec/pull/5616) ([tduffield](https://github.com/tduffield))
+- Fix `--chef-license=accept` option to only show license accepted message [#5609](https://github.com/inspec/inspec/pull/5609) ([Nik08](https://github.com/Nik08))
 <!-- latest_release -->
 
-<!-- release_rollup since=4.38.9 -->
-### Changes since 4.38.9 release
-
-#### Bug Fixes
-- Pin mongo gem to 2.13.2 to avoid broken symlink [#5615](https://github.com/inspec/inspec/pull/5615) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 4.41.1 -->
+<!-- release_rollup since=4.41.2 -->
+### Changes since 4.41.2 release
 
 #### Merged Pull Requests
-- Fix the typo in documentation file for opa_api resource [#5608](https://github.com/inspec/inspec/pull/5608) ([Vasu1105](https://github.com/Vasu1105)) <!-- 4.41.2 -->
-- Remove empty .gitmodules file [#5616](https://github.com/inspec/inspec/pull/5616) ([tduffield](https://github.com/tduffield)) <!-- 4.41.1 -->
-- Filter active controls in profile by tags [#5596](https://github.com/inspec/inspec/pull/5596) ([Nik08](https://github.com/Nik08)) <!-- 4.41.0 -->
-- Add mongodb_session resource and docs. [#5572](https://github.com/inspec/inspec/pull/5572) ([Vasu1105](https://github.com/Vasu1105)) <!-- 4.40.0 -->
-
-#### New Features
-- Add support for OPA: add resource opa_cli and opa_api [#5592](https://github.com/inspec/inspec/pull/5592) ([Vasu1105](https://github.com/Vasu1105)) <!-- 4.39.0 -->
+- Fix `--chef-license=accept` option to only show license accepted message [#5609](https://github.com/inspec/inspec/pull/5609) ([Nik08](https://github.com/Nik08)) <!-- 4.41.7 -->
+- Fix `--insecure` not working with profile  [#5600](https://github.com/inspec/inspec/pull/5600) ([Nik08](https://github.com/Nik08)) <!-- 4.41.6 -->
+- Fix apache_conf issue when Server Root is not present in configuration [#5601](https://github.com/inspec/inspec/pull/5601) ([Nik08](https://github.com/Nik08)) <!-- 4.41.5 -->
+- Fix range based filtering in filter tables [#5598](https://github.com/inspec/inspec/pull/5598) ([Nik08](https://github.com/Nik08)) <!-- 4.41.4 -->
+- Build fix for ruby version 2.5 - HTML Proofer gem installation error  [#5610](https://github.com/inspec/inspec/pull/5610) ([Nik08](https://github.com/Nik08)) <!-- 4.41.3 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v4.41.2](https://github.com/inspec/inspec/tree/v4.41.2) (2021-08-16)
+
+#### New Features
+- Add support for OPA: add resource opa_cli and opa_api [#5592](https://github.com/inspec/inspec/pull/5592) ([Vasu1105](https://github.com/Vasu1105))
+
+#### Bug Fixes
+- Pin mongo gem to 2.13.2 to avoid broken symlink [#5615](https://github.com/inspec/inspec/pull/5615) ([clintoncwolfe](https://github.com/clintoncwolfe))
+
+#### Merged Pull Requests
+- Add mongodb_session resource and docs. [#5572](https://github.com/inspec/inspec/pull/5572) ([Vasu1105](https://github.com/Vasu1105))
+- Filter active controls in profile by tags [#5596](https://github.com/inspec/inspec/pull/5596) ([Nik08](https://github.com/Nik08))
+- Remove empty .gitmodules file [#5616](https://github.com/inspec/inspec/pull/5616) ([tduffield](https://github.com/tduffield))
+- Fix the typo in documentation file for opa_api resource [#5608](https://github.com/inspec/inspec/pull/5608) ([Vasu1105](https://github.com/Vasu1105))
+<!-- latest_stable_release -->
+
 ## [v4.38.9](https://github.com/inspec/inspec/tree/v4.38.9) (2021-07-22)
 
 #### Enhancements
@@ -37,7 +46,6 @@
 - Need to back out x25519 gem as its causing issues for ssh [#5590](https://github.com/inspec/inspec/pull/5590) ([Vasu1105](https://github.com/Vasu1105))
 - Use ruby 2.7.4 [#5602](https://github.com/inspec/inspec/pull/5602) ([clintoncwolfe](https://github.com/clintoncwolfe))
 - Remove mention of AWS tests from README [#5603](https://github.com/inspec/inspec/pull/5603) ([clintoncwolfe](https://github.com/clintoncwolfe))
-<!-- latest_stable_release -->
 
 ## [v4.38.3](https://github.com/inspec/inspec/tree/v4.38.3) (2021-07-02)
 
